@@ -1,0 +1,105 @@
+/* Basic Code */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(21, 21, 21);
+    color: #fff;
+    padding: 10px;
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    background-blend-mode: lighten;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 25px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    margin: 0;
+    text-align: center;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#profile-picture {
+    max-width: 40%;
+}
+
+/* Project Section */
+.project1 {
+    max-width: 100%;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+.name {
+    text-decoration: none;
+    color: black;
+}
+
+.Horiseon-sematic-HTML {
+    padding: 50px;
+    display: block;
+    font-weight: bold;
+}
+
+.project-content {
+    flex: 1 1 50%;
+    padding: 20px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: static;
+}
+
+.Linkedin {
+    max-width: 5%;
+}
+
+.github {
+    max-width: 5%;
+}
